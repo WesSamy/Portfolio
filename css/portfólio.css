@@ -1,14 +1,42 @@
 /*Layout padrão*/
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+/*Remover o underline*/
 a {
     text-decoration: none;
 }
+/*Colocar o background no site*/
+body {
+    background: url("../Img/img1.jpeg") no-repeat top center/cover; 
+}
 
-body{
-    background: url("../Img/img1.jpeg") no-repeat top center/cover;
+body * {
+    color: white;
+}
+
+p{
+    font-family: "Orbitron", sans-serif;
+}
+
+.container {
+   
+    max-width: 200px;
+    margin: 60px auto;
+    padding: 0px 25px;   
+}
+.perfil img {
+    width: 400px;
+    border-radius:50%;
+    
+}
+
+.perfil{
+   
+    text-align: center;
+    padding: 25px 0px;
+    
 }
